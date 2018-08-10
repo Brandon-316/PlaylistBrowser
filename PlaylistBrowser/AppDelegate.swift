@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PlaylistBrowser
 //
-//  Created by Brandon Mahoney on 8/9/18.
+//  Created by Brandon Mahoney on 8/9/15.
 //  Copyright © 2018 Brandon Mahoney. All rights reserved.
 //
 
