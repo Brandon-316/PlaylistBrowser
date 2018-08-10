@@ -10,7 +10,6 @@
 		8420133F211D4E6A004E6076 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8420133E211D4E6A004E6076 /* LaunchScreen.xib */; };
 		84BD2FC7211D44E2009FBE94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD2FC6211D44E2009FBE94 /* AppDelegate.swift */; };
 		84BD2FCE211D44E3009FBE94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BD2FCD211D44E3009FBE94 /* Assets.xcassets */; };
-		84BD2FD1211D44E3009FBE94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BD2FCF211D44E3009FBE94 /* LaunchScreen.storyboard */; };
 		84BD2FDC211D4540009FBE94 /* MusicLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD2FD8211D4540009FBE94 /* MusicLibrary.swift */; };
 		84BD2FDD211D4540009FBE94 /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD2FD9211D4540009FBE94 /* Playlist.swift */; };
 		84BD2FDE211D4540009FBE94 /* PlaylistMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BD2FDA211D4540009FBE94 /* PlaylistMasterViewController.swift */; };
@@ -23,7 +22,6 @@
 		84BD2FC3211D44E2009FBE94 /* PlaylistBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaylistBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BD2FC6211D44E2009FBE94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BD2FCD211D44E3009FBE94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84BD2FD0211D44E3009FBE94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BD2FD2211D44E3009FBE94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84BD2FD8211D4540009FBE94 /* MusicLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicLibrary.swift; sourceTree = "<group>"; };
 		84BD2FD9211D4540009FBE94 /* Playlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
@@ -70,7 +68,6 @@
 				84BD2FE2211D456B009FBE94 /* Main.storyboard */,
 				84BD2FCD211D44E3009FBE94 /* Assets.xcassets */,
 				8420133E211D4E6A004E6076 /* LaunchScreen.xib */,
-				84BD2FCF211D44E3009FBE94 /* LaunchScreen.storyboard */,
 				84BD2FD2211D44E3009FBE94 /* Info.plist */,
 			);
 			path = PlaylistBrowser;
@@ -135,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8420133F211D4E6A004E6076 /* LaunchScreen.xib in Resources */,
-				84BD2FD1211D44E3009FBE94 /* LaunchScreen.storyboard in Resources */,
 				84BD2FCE211D44E3009FBE94 /* Assets.xcassets in Resources */,
 				84BD2FE3211D456B009FBE94 /* Main.storyboard in Resources */,
 			);
@@ -157,17 +153,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		84BD2FCF211D44E3009FBE94 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84BD2FD0211D44E3009FBE94 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84BD2FD3211D44E3009FBE94 /* Debug */ = {
